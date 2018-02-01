@@ -1,0 +1,47 @@
+html,body { background: rgba(242, 242, 242, 1); padding: 0; margin: 0; font-size: 14px; line-height: 2; font-family: 'Microsoft YaHei Regular', 'Microsoft YaHei'; }
+ h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, span, 
+ blockquote, pre, form, fieldset, legend, input, button, textarea, hr { padding: 0; margin: 0; }
+ img, select, input, button { vertical-align: middle; }
+ a, input { outline: none; font-family: 'Microsoft YaHei Regular', 'Microsoft YaHei'; }
+ a { text-decoration: none; outline-style: none !important; -moz-outline-style: none !important; color: #333; }
+ a:hover { color: #0066CC; }
+ ul, ul li, ol { list-style: none; }
+ 
+ /*//card*/
+.hp-operateBox {
+	border: 1px solid #eaeefb;
+	background-color: #fff;
+	margin-bottom: 10px;
+	padding: 16px 20px 10px 20px;
+	text-align: left;
+}
+.hp-operateBox:hover{
+	box-shadow: 0 0 8px #eaeefb;
+}
+.hp-operateBox .o-title>h2 {
+	font-weight: 400;
+	font-family: "microsoft yahei";
+	text-align: left;
+}
+.hp-operateBox .splitBar {
+	border-bottom: 1px solid #eaeefb;
+	margin-top: 5px;
+}
+.hp-operateBox .input-box p{
+	margin-bottom: 15px;
+}
+
+.hp-operateBox .input-box{
+	margin-top: 20px;
+	text-align: left;
+}
+.hp-operateBox .input-box label{
+	font-size: 14px;
+	color: #666;
+	margin-right: 8px;
+}
+.hp-operateBox .input-box .el-input{
+	display: inline-block;
+	width: 210px;
+	margin-right: 12px;
+}
